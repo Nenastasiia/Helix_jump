@@ -9,6 +9,7 @@ public class BallMovement : MonoBehaviour
     [SerializeField] private float fallHeight;
     [SerializeField] private float fallSpeedDefault;
     [SerializeField] private float fallSpeedMax;
+    [SerializeField] private float testgit;
     [SerializeField] private float fallSpeedAcceleration;
 
     private Animator animator;
