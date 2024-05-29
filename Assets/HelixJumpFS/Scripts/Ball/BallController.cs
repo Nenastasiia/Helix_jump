@@ -12,7 +12,8 @@ public class BallController : OneCollaiderTrigger
 
     private void Start()
     {
-        movement = GetComponent<BallMovement>(); 
+        movement = GetComponent<BallMovement>();
+        print("kaef");
     }
 
     protected override void OnOneTriggerEnter(Collider other)
